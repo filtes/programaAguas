@@ -1,0 +1,157 @@
+*{
+    background-color:rgb(46, 114, 167);
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1%;
+    font-weight: 900;
+    line-height: 2rem;
+    /* width: 100%; */
+    margin: 0px;
+    padding:0px;
+  }
+
+  .cabeza, header h1{
+    margin: 10px;
+    /* background-color: rgb(0, 119, 255); */
+    border: 2px solid;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a{
+    border: 2px solid rgb(157, 229, 241);
+    padding: 10px;
+    background:red;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  a:hover{
+    background:rgb(163, 3, 168);
+    color:gold;
+    border: 3px solid yellow
+  }
+  nav{
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .grid{
+    display: flex;
+    gap:20px;
+    width: 90%;
+    margin: 30px auto;
+  }
+  section{
+    width: 60%;
+    /* border: 3px solid yellow; */
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  h1,h3,.aside--barra,.aside--barra1 {
+    text-align: center;
+    font-style:oblique;
+    padding: 30px;
+    background:rgba(63, 196, 236, 0.547);
+    border-radius: 5px;
+    
+  }
+
+  aside{
+    width: 38%;
+    border: 5px solid rgb(252, 236, 202);
+    border-radius: 10px;
+    padding: 2rem;
+ 
+    
+  }
+  
+  .vinculo--aside > a{
+    padding: 2px;
+    margin: 15px auto;
+  }
+  
+  .aside--a{
+    background:rgba(29, 236, 236, 0.286);
+    color:rgb(66, 65, 66);
+    border:rgb(241, 241, 235) 2px solid;
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+
+  @media (max-width: 1092px){
+    .aside--a{
+      background:rgba(29, 236, 236, 0.286);
+      color:rgb(110, 83, 110);
+      border:rgb(241, 241, 235) 2px solid;
+      font-size: 0.8rem;
+    }
+
+  }
+  
+  @media (max-width: 800px){
+    .aside--a{
+      background:rgba(29, 236, 236, 0.286);
+      color:rgb(110, 83, 110);
+      border:rgb(241, 241, 235) 2px solid;
+      font-size: 0.6rem;
+    }
+  
+  }
+
+  @media (max-width: 758px){
+    .aside--a{
+      background:rgba(29, 236, 236, 0.286);
+      color:rgb(110, 83, 110);
+      border:rgb(241, 241, 235) 2px solid;
+      font-size: 0.5rem;
+    }
+    
+  }
+
+
+
+  
+
+  .cuadro1,p{
+    background-color: bisque;
+    /* width: 1200px; */
+    margin: 0px;
+    padding: 5px;
+    color: rgb(107, 107, 114);
+    border-radius: 5px;
+  }
+  .cuadro1_1{
+    background-color: rgba(177, 176, 202, 0.815);
+  }
+  footer p{
+    display: flex;
+    border: 0px solid yellow;
+    background-color: rgba(10, 20, 107, 0.334);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* width: 100%; */
+    color: azure;
+  
+  }
+
+  div.otrasReferencias:nth-child(2){
+    margin: 50px;
+  }
+
+  .contenidoAgua{
+    margin: 20px;
+
+  }
+
+  
+  footer{
+    margin:20px 0;
+    /* height: 200px; */
+  }
