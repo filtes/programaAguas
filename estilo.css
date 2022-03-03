@@ -1,6 +1,6 @@
 *{
-    background-color:rgb(46, 114, 167);
-    color: aliceblue;
+    /* background-color:rgb(46, 114, 167); */
+    color: black;
     width: auto;
     height: auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -119,7 +119,7 @@
   
 
   .cuadro1,p{
-    background-color: bisque;
+    /* background-color: bisque; */
     /* width: 1200px; */
     margin: 0px;
     padding: 5px;
